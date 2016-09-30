@@ -7,3 +7,26 @@ cd "C:\Program Files (x86)\Microsoft SQL Server\120\Shared"
 mofcomp sqlmgmproviderxpsp2up.mof
 
 pause
+
+
+
+
+REM cd "C:\Program Files (x86)\Microsoft SQL Server\90\Shared\"
+REM mofcomp sqlmgmproviderxpsp2up.mof
+REM pause
+
+REM cd "C:\Program Files (x86)\Microsoft SQL Server\100\Shared\"
+REM mofcomp sqlmgmproviderxpsp2up.mof
+REM pause
+
+REM cd "C:\Program Files (x86)\Microsoft SQL Server\110\Shared\"
+REM mofcomp sqlmgmproviderxpsp2up.mof
+REM pause
+
+REM cd "C:\Program Files (x86)\Microsoft SQL Server\120\Shared\"
+REM mofcomp sqlmgmproviderxpsp2up.mof
+REM pause
+
+REM cd "C:\Program Files (x86)\Microsoft SQL Server\130\Shared\"
+REM mofcomp sqlmgmproviderxpsp2up.mof
+REM pause
