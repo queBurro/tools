@@ -1,0 +1,38 @@
+PS C:\Users\DR25396\Documents\tmpPosh> tfpt query /?
+tfpt query - Query for work items
+
+Use this command to run a work item query and display the results.
+When no query is passed in, all work items assigned to you are
+displayed.
+
+Usage: tfpt query [/format:[tsv|xml|id]] [/include:header,data,count]
+            [querypath | /wiqfile:filename | /wiql:wiql]
+            [/collection:uri]
+
+ /format         Specifies what format to display the data in
+    tsv          Tab separated (use \t as the column separator)
+    xml          Xml (simple xml format)
+    id           Print just the work item ids (this output can be piped
+                 to 'tfpt workitem /update'
+                 The default format is 'tsv'.
+
+ /include        Specifies what information to display in a tab separated format.
+                 This option does not apply to formats xml or id.
+    header       Print the column headers associated with the query
+    data         Print the actual records (leave this out if you only want to
+                 get a count of the records)
+    count        Print the number of records returned and when the query was run
+                 The default for include is header, data, count.
+
+ querypath       Path of the query in the format
+                 <project>\<path>\<queryName>
+
+ /wiqfile        Specifies that the query should be retrieved from a .wiq file
+    filename     Name of the .wiq file to load the query from
+
+ /wiql           Specifies that the query is inline WIQL
+    wiql         This is an inline query of the form 'Select <fields> from
+                 WorkItems where <filter criteria> order by <fields>'
+
+ /collection:uri Specifies the URL of the Team Project Collection to connect to.
+                 Example: /collection:http://mytfsserver:8080/tfs/mycollection

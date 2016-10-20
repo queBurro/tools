@@ -1,0 +1,34 @@
+http://tfs:8080/tfs/ARS_Plus_Collection
+http://tfs:8080/tfs/Automation_Tools_Collection
+http://tfs:8080/tfs/CCF_Collection
+http://tfs:8080/tfs/CodeCoverage_Collection
+http://tfs:8080/tfs/Common_Components_Collection
+http://tfs:8080/tfs/ConfigurationManagement
+http://tfs:8080/tfs/Data_Services_Collection
+http://tfs:8080/tfs/DeltaRail_Common_Collection
+http://tfs:8080/tfs/DeltaRailSolutions_Collection
+http://tfs:8080/tfs/DummyIecc_Collection
+http://tfs:8080/tfs/EnergyMonitoring_Collection
+http://tfs:8080/tfs/Fishbone_Collection
+http://tfs:8080/tfs/IChex_Collection
+http://tfs:8080/tfs/IECC Classic Collection
+http://tfs:8080/tfs/IECCScalableCollection
+http://tfs:8080/tfs/IRMA_Collection
+http://tfs:8080/tfs/IT Collection
+http://tfs:8080/tfs/MechanicalInteractions_Collection
+http://tfs:8080/tfs/OLIVE_Collection
+http://tfs:8080/tfs/Panchex_Collection
+http://tfs:8080/tfs/Pegasus_Collection
+http://tfs:8080/tfs/RTS_Collection
+http://tfs:8080/tfs/TCA_Collection
+http://tfs:8080/tfs/TFSBuilds_Collection
+http://tfs:8080/tfs/TFSRollOut_Collection
+http://tfs:8080/tfs/Trackline2
+http://tfs:8080/tfs/TTP_Collection
+http://tfs:8080/tfs/VampireCollection
+http://tfs:8080/tfs/VIEW_Collection
+http://tfs:8080/tfs/VTE_Collection
+http://tfs:8080/tfs/WheelChex_Collection
+http://tfs:8080/tfs/WSPER_Collection
+http://tfs:8080/tfs/XDM_Collection
+http://tfs:8080/tfs/XVPlus_Collection

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkItemQuery Version="1">
+	<TeamFoundationServer>http://tfs:8080/tfs/iecc%20classic%20collection</TeamFoundationServer>
+	<TeamProject>1120 - PAM_PolmontMillerhill</TeamProject>
+	<Wiql>SELECT [System.Id], [DeltaRail.TL.Resp.Response], [Microsoft.VSTS.CMMI.ProposedFix], [System.WorkItemType], [System.Title], [System.AssignedTo], [System.State], [System.TeamProject] FROM WorkItems WHERE [System.WorkItemType] = 'Test Log'  AND ( [System.State] = 'Proposed'  OR  [System.State] = 'Active' ) AND  [System.TeamProject] &lt;&gt; 'z Dummy Project to play with' ORDER BY [System.TeamProject] </Wiql>
+</WorkItemQuery>
