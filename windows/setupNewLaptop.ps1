@@ -8,7 +8,7 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/in
 choco install notepadplusplus.install -y
 choco install googlechrome -y
 choco install 7zip.install -y
-choco install shotty -y
+#choco install shotty -y
 choco install firefox -y
 choco install nmap -y
 #mosquitto
@@ -22,6 +22,9 @@ choco install winmerge -y
 # choco install jdk8 
 
 #git related
-choco install git
-choco install poshgit
-choco install tortoisegit
+choco install git -y
+choco install poshgit -y
+choco install tortoisegit -y
+
+#putty 
+choco install putty -y
