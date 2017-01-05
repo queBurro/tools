@@ -20,3 +20,8 @@ choco install winmerge -y
 #gittfs?
 
 # choco install jdk8 
+
+#git related
+choco install git
+choco install poshgit
+choco install tortoisegit
