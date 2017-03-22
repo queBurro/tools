@@ -1,0 +1,5 @@
+
+
+Enable-PSRemoting -Force 
+
+invoke-command -ComputerName  FA0033194 -ScriptBlock { choco install notepadplusplus -y }
