@@ -79,11 +79,11 @@ http://www.youtube.com/watch?v=-Ya1dQ1Igkc
 endpoint - different configuarionName of powershell of endpoint of powershell
 
 @205 get-module | remove-module     unloads everything     no AD modules
-get-PsSNapin | remove-PSSNapin     remove all snapins that it’ll let you  “naked powershell”
+get-PsSNapin | remove-PSSNapin     remove all snapins that itâ€™ll let you  â€œnaked powershellâ€
 206 created persistant connection to other coomputer
 
 get-aduser
-looks like it ran locally (implicit remoting) so let them live on server, doesn’t have to be installed on clients
+looks like it ran locally (implicit remoting) so let them live on server, doesnâ€™t have to be installed on clients
 @210 profiles
 help about_profiles
 
@@ -91,7 +91,7 @@ help about_profiles
 
 @2:17 trouble shooting
 Enter-PSSession -ComputerName sss  etc. then run same wizard from the command line
-can only remote in via AD’s hostname, if you want to use dns/IP have to add to trusted hosts
+can only remote in via ADâ€™s hostname, if you want to use dns/IP have to add to trusted hosts
 
 @2:25 enable tracing - diagnostics    SHOW DEBUG LOGS
 disable tracing
@@ -108,10 +108,10 @@ SELECT - picks columns
 WHERE - filters  ...like SQL
 
 @246 formatting shell output
-@250 custom columns   FormatString=’F2’  float point , 2dp
+@250 custom columns   FormatString=â€™F2â€™  float point , 2dp
 Out-File zzz.txt -append     same as >>
 @2:53     out-gridview!!
-@2:55 don’t use format, use select-object,
+@2:55 donâ€™t use format, use select-object,
 
 filter left,    format right 
 
@@ -121,14 +121,14 @@ filter left,    format right
 
 @305 get-job gets you the list of jobs back
 
-receive-job -id 3 -keep         gets you the results, only    keep doesn’t throw away results
+receive-job -id 3 -keep         gets you the results, only    keep doesnâ€™t throw away results
 remove-job -id 2              gets rid of the kept jobs
 stop-job -id 8
 in v3 you can schedule jobs with this (results is then cached to disc)
 
-@312 i/o     read-host “add something”
-write-host <- don’t use this, can’t convert it to html, or csv, just drawings on screen
-write-output … can redirect, export etc.
+@312 i/o     read-host â€œadd somethingâ€
+write-host <- donâ€™t use this, canâ€™t convert it to html, or csv, just drawings on screen
+write-output â€¦ can redirect, export etc.
 
 get-command -verb write
 
@@ -136,15 +136,15 @@ get-command -verb write
 get-executionPolicy
 .ps1 opens up with notepad  - by design
 
-@323 “principle of least privilege” 
+@323 â€œprinciple of least privilegeâ€ 
 powershell needs a path, e.g.    ./test   current directory works 
 scripts have paths
-commands don’t 
+commands donâ€™t 
 
 @328 another break!
 
-$x = 5               variables,   “x” is the variable name
-${this is also, a variable}    curly brackets let you name whatever you want <- don’t do this
+$x = 5               variables,   â€œxâ€ is the variable name
+${this is also, a variable}    curly brackets let you name whatever you want <- donâ€™t do this
 
 $s = get-service
 $s[3] = one of the services
@@ -163,7 +163,7 @@ PS C:\Users\tb> $x + $y     casting occurs
 PS C:\Users\tb> $y + $x
 55                              
 thus:
-[int]$age = read-host “enter your age”
+[int]$age = read-host â€œenter your ageâ€
 
 @336 writing your own cmdlet
 
@@ -187,11 +187,22 @@ connect.microsoft.com
 @4:05:16 
 make it part of your job
 get automating in to my job dscription
-automating - “part of my job this year will be to automate a task a that takes us 5 hours to do...” a metric on me, this will save us 5 hours in the course of a year
-if I’ve not done it... “you didn’t give me the time I needed”
+automating - â€œpart of my job this year will be to automate a task a that takes us 5 hours to do...â€ a metric on me, this will save us 5 hours in the course of a year
+if Iâ€™ve not done it... â€œyou didnâ€™t give me the time I neededâ€
 
 ---
 
 powershell notes..
 
 Enter-PSSession -computerName tfsbuildwsper
+
+---
+from google drive...
+  PS C:\_ws\tfs\collnView\fb\fb01> ls -r *.sln -File -Filter "*.sln" | Select-Object Name | Sort-Object Name
+  get-adgroupmember tfs_testers | select name   <- ran this on tfsbuildwsper1, as it's an installed feature
+  get-adgroupmember tfs_member | select name
+
+  ^ run command on different box...
+  enter-pssession tfsbuildwsper1
+  invoke-command -computername tfsbuildwsper1 {get-adgroupmember tfs_member | select name}
+http://stackoverflow.com/questions/25856517/get-list-of-checked-out-files-in-tfs-error 
