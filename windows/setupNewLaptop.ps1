@@ -22,7 +22,8 @@ choco install 7zip.install -y
 # choco install jdk8 
 
 #git related
-choco install git -y
+#choco install git -y
+choco install git -params '"/GitAndUnixToolsOnPath"'
 #choco install poshgit -y
 choco install tortoisegit -y
 
