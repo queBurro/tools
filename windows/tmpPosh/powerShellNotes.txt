@@ -1,89 +1,96 @@
 http://www.youtube.com/watch?v=-Ya1dQ1Igkc
 
-??$ p s v e r s i o n t a b l e 
-  v e r s i o n 3   l i k e s   . n e t 4 
-  p s   b u i l t   o n   f r a m e w o r k ,   s o   l a t e r   t h e   f w   t h e   b e t t e r   t h e   p s 
- $ h o s t . P r i v a t e D a t a . E r r o r F o r e g r o u n d C o l o r   =   ' g r e e n ' 
-  d i r   - r e c u r s e   
-  h e l p   * s e r v i c e * 
- @ 1 8   " d i s c o v e r a b i l i t y   f e a t u r e s " 
- U p d a t e - H e l p 
- v e r b - s i n g u l a r N o u n 
- h e l p   G e t - S e r v i c e   - f u l l 
- e x a m p l e s   a t   t h e   b o t t o m 
- h e l p   G e t - S e r v i c e   - o n l i n e 
- [ ] i n   h e l p   m e a n s   o p t i o n a l   ( i n   s h e l l   s o m e t h i n g   d i f f e r e n t ) 
- c l s 
- @ 3 0   p s 3   t r i c k   s h o w - 
- @ 3 1 : 3 0   s h o w - c o m m a n d   g e t - p r o c e s s   
- G e t - E v e n t L o g   - l i s t 
- g e t - c o m m a n d   * s e r v i c e *   @ 4 0 
- " a c c e s s   c o n t r o l   l i s t "   a c l 
- d i r   |   m o r e         < -   p i p e s   l o o k   t h e y   p i p e   t e x t   b u t   t h e y   d o n ' t ! 
- g e t - s e r v i c e       < -   a u t o ,   m a n u a l   e t c .   n o t   s h o w e d 
- h e l p   = =   " g e t - h e l p   z z z   |   m o r e "     < - a l i a s ' d 
- h e l p   g e t - c o m m a n d   g e t - m e m b e r   <   3   m o s t   i m p o r t a n t   c o m m a n d s 
- @ 4 8 : 2 3     r o w = = o b j e c t   c o l u m n s = = p r o p e r t y 
- T y p e N a m e :   i t s   n a m e s p a c e ! !   n o   i t ' s   n o t ,   i t   t e l l s   y o u   t h e   t p y e   o f   o b j e c t   p r o d u c e d   ( t h e   o b j e c t   i n   t h e   p i p e l i n e ) 
- @ 4 9 : 5 3   g e t - p r o c e s s   |   s t o p - p r o c e s s   - w h a t i f           - c o n f i r m 
- < -   t h i s   i s   N O T   t e x t   o u t p u t !   i t ' s   o b j e c t s   ( d a t a   s t r u c t u r e s ) 
- @ 5 1 : 2 9   p s   i s   p a t e n t e d   
- @ 1 : 0 4   i m p o r t - c s v   c o m m a n d 
- i m p o r t - c s v   n o t e s . c s v   |   n e w - a d u s e r   <   
- @ 1 : 0 9   s t o p - c o m p u t e r 
- @ 1 : 1 2   c o m e s   b a c k   f r o m   b r e a k 
+ get-help Get-HotFix -Examples
 
- g e t - p r o c e s s   |   S o r t - O b j e c t   - P r o p e r t y   p m   - D e s c e n d i n g   |   S e l e c t - O b j e c t   - F i r s t   1 0   n a m e , i d , p m , v m 
- G e t - P r o c e s s   |   E x p o r t - C l i x m l   b a s e l i n e . x m l 
- c o m p a r e - o b j e c t   <   d i f f i n g 
- c o n v e r t T o - h t m l   - f r a g m e n t   <   c h e c k   t h i s   o u t 
- - e q       = =   
-   ' h e l l o '   - c e q   ' H E L L O '       f a l s e         > C < a s e s e n s i t i v e 
- @ 1 : 2 7   ' h e l l o '   - l i k e   ' * l l * '       t r u e           >   l i k e   f r o m   S Q L 
- t e c h n e t . c o m   p o w e r s h e l l   c o l u m n   d o n 
- G e t - S e r v i c e   |   W h e r e - O b j e c t   - F i l t e r S c r i p t   {   $ _ . S t a t u s   - e q   ' R u n n i n g '   } 
- g s v   |   W h e r e   {   $ _ . S t a t u s   - e q   ' R u n n i n g '   } 
- g s v   |   ?   {   $ _ . S t a t u s   - e q   ' R u n n i n g '   } 
- h e l p   g s v 
- g a l   g a l 
- @ 1 : 3 3   r e g i s t r y 
+$psversiontable
+version3 likes .net4
+ps built on framework, so later the fw the better the ps
+$host.PrivateData.ErrorForegroundColor = 'green'
+dir -recurse 
+help *service*
+@18 "discoverability features"
+Update-Help
+verb-singularNoun
+help Get-Service -full
+examples at the bottom
+help Get-Service -online
+[]in help means optional (in shell something different)
  
- c d   h k l m : 
- c d   c : 
-  G e t - P S D r i v e     p o w e r s h e l l   d r i v e s 
- g a l   c a t         
- g a l   t y p e 
- G e t - C o n t e n t   E n v : \ C O M P U T E R N A M E 
- E n v   i s   * j u s t *   a   ( p o w e r s h e l l )   d r i v e ,   t h e   s a m e   a s   C :   e t c . 
- @ 1 : 3 7 : 4 0   b l a n k   t o o l   ,   s n a p   i n s 
- G e t - P S S n a p i n       - h w t a   s n a p i n s   d o   I   h a v e ? 
- a d d - p s s n a p i n         " m o d u l e s "   a r e   p s 2   s n a p i n s 
- 
- @ 1 : 4 0 
- g e t - m o d u l e   - L i s t A v a i l a b l e 
- i m p o r t - m o d u l e   z z z z                     l o a d s   i n t o   m e m o r y 
- g e t - c o m m a n d   - m o d u l e   z z z z         l i s t s   c o m m a n d s 
- 
- i n   p s 3 ,   t h e r e ' s   m o d u l e   a u t o   d i s c o v e r y 
- 
- @ 1 : 4 3   " r e m o t i n g "   f r o m   W i n 8 ,   e v e r y t h i n g   u s e s   t h i s   o n e   p r o t o c o l ! !   " W S M a n "   w e b   s e r v i c e s   f o r   m a n a g e m e n t   ( R F C ' s   n o t   a   w i n d o w s   p r o t o c o l   i n c   u n i x )   o n e   p o r t !   5 9 8 5   5 9 8 6   i s   s l l   v e r s i o n   ( h t t p s ) 
- 
- n o   m o r e   p s e x e c !     p o w e r s h e l l ' s   v e r s i o n   o f   s s h 
- @ 1 : 4 9 
- e n t e r - p s s e s s i o n   - c o m p u t e r n a m e   X X X X           c r e d e n t i a l s   c a n ' t   h o p   t w i c e
-   g e t - m o d u l e   - L i s t A v a i l a b l e       < -   r e a d   t h i s 
- @ 1 : 5 2   c a n   r e m o t e   i n t o   2 0   s e r v e r s   a t   s a m e   t i m e   a n d   d o   t h i s 
- - T h r o t t l e L i m i t   ( e a c h   r e m o t e   c o n n e c t i o n   h a s   o n e   p o w e r s h e l l ) 
- @ 2 : 0 0   g i v i n g   H R   l i m i t e d   c o m m a n d s   o n   a n   e n d p o i n t 
+cls
+@30 ps3 trick show-
+@31:30 show-command get-process 
+Get-EventLog -list
+get-command *service* @40
+"access control list" acl
+dir | more    <- pipes look they pipe text but they don't!
+get-service   <- auto, manual etc. not shown
+help == "get-help zzz | more"  <-aliased
+help get-command get-member < 3 most important commands
+@48:23  row==object columns==property
+TypeName: its namespace!! no it's not, it tells you the type of object produced (the object in the pipeline)
+
+@49:53 get-process | stop-process -whatif     -confirm
+<- this is NOT text output! it's objects (data structures)
+@51:29 ps is patented 
+@1:04 import-csv command
+import-csv notes.csv | new-aduser < 
+@1:09 stop-computer
+@1:12 comes back from break
+@1:20
+get-process | Sort-Object -Property pm -Descending | Select-Object -First 10 name,id,pm,vm
+Get-Process | Export-Clixml baseline.xml
+compare-object < diffing
+convertTo-html -fragment < check this out
+-eq   == 
+ 'hello' -ceq 'HELLO'   false    >Casesensitive
+@1:27 'hello' -like '*ll*'   true     > like from SQL
+technet.com powershell column don
+Get-Service | Where-Object -FilterScript { $_.Status -eq 'Running' }
+gsv | Where { $_.Status -eq 'Running' }
+gsv | ? { $_.Status -eq 'Running' }
+help gsv
+gal gal
+
+@1:33 registry
+cd hklm:
+cd c:
+Get-PSDrive  powershell drives
+gal cat    
+gal type
+Get-Content Env:\COMPUTERNAME
+
+Env is *just* a (powershell) drive, the same as C: etc.
+
+@1:37:40 blank tool , snap ins
+
+Get-PSSnapin   -hwta snapins do I have?
+add-pssnapin    "modules" are ps2 snapins
+@1:40
+get-module -ListAvailable
+import-module zzzz          loads into memory
+get-command -module zzzz    lists commands
+in ps3, there's module auto discovery
+@1:43 "remoting" from Win8, everything uses this one protocol!! "WSMan" web services for management (RFC's not a windows protocol inc unix) one port! 5985 5986 is sll version (https)
+no more psexec!  powershell's version of ssh
+@1:49
+enter-pssession -computername XXXX     credentials can't hop twice
+ get-module -ListAvailable   <- read this
+@1:52 can remote into 20 servers at same time and do this
+-ThrottleLimit (each remote connection has one powershell)
+
+@1:53 help about_remote_troubleshooting
+
+@2:00 giving HR limited commands on an endpoint
+endpoint - different configuarionName of powershell of endpoint of powershell
 
 endpoint - different configuarionName of powershell of endpoint of powershell
 
 @205 get-module | remove-module     unloads everything     no AD modules
-get-PsSNapin | remove-PSSNapin     remove all snapins that itíll let you  ìnaked powershellî
+get-PsSNapin | remove-PSSNapin     remove all snapins that it‚Äôll let you  ‚Äúnaked powershell‚Äù
 206 created persistant connection to other coomputer
 
 get-aduser
-looks like it ran locally (implicit remoting) so let them live on server, doesnít have to be installed on clients
+looks like it ran locally (implicit remoting) so let them live on server, doesn‚Äôt have to be installed on clients
 @210 profiles
 help about_profiles
 
@@ -91,7 +98,7 @@ help about_profiles
 
 @2:17 trouble shooting
 Enter-PSSession -ComputerName sss  etc. then run same wizard from the command line
-can only remote in via ADís hostname, if you want to use dns/IP have to add to trusted hosts
+can only remote in via AD‚Äôs hostname, if you want to use dns/IP have to add to trusted hosts
 
 @2:25 enable tracing - diagnostics    SHOW DEBUG LOGS
 disable tracing
@@ -108,10 +115,10 @@ SELECT - picks columns
 WHERE - filters  ...like SQL
 
 @246 formatting shell output
-@250 custom columns   FormatString=íF2í  float point , 2dp
+@250 custom columns   FormatString=‚ÄôF2‚Äô  float point , 2dp
 Out-File zzz.txt -append     same as >>
 @2:53     out-gridview!!
-@2:55 donít use format, use select-object,
+@2:55 don‚Äôt use format, use select-object,
 
 filter left,    format right 
 
@@ -121,14 +128,14 @@ filter left,    format right
 
 @305 get-job gets you the list of jobs back
 
-receive-job -id 3 -keep         gets you the results, only    keep doesnít throw away results
+receive-job -id 3 -keep         gets you the results, only    keep doesn‚Äôt throw away results
 remove-job -id 2              gets rid of the kept jobs
 stop-job -id 8
 in v3 you can schedule jobs with this (results is then cached to disc)
 
-@312 i/o     read-host ìadd somethingî
-write-host <- donít use this, canít convert it to html, or csv, just drawings on screen
-write-output Ö can redirect, export etc.
+@312 i/o     read-host ‚Äúadd something‚Äù
+write-host <- don‚Äôt use this, can‚Äôt convert it to html, or csv, just drawings on screen
+write-output ‚Ä¶ can redirect, export etc.
 
 get-command -verb write
 
@@ -136,15 +143,15 @@ get-command -verb write
 get-executionPolicy
 .ps1 opens up with notepad  - by design
 
-@323 ìprinciple of least privilegeî 
+@323 ‚Äúprinciple of least privilege‚Äù 
 powershell needs a path, e.g.    ./test   current directory works 
 scripts have paths
-commands donít 
+commands don‚Äôt 
 
 @328 another break!
 
-$x = 5               variables,   ìxî is the variable name
-${this is also, a variable}    curly brackets let you name whatever you want <- donít do this
+$x = 5               variables,   ‚Äúx‚Äù is the variable name
+${this is also, a variable}    curly brackets let you name whatever you want <- don‚Äôt do this
 
 $s = get-service
 $s[3] = one of the services
@@ -163,7 +170,7 @@ PS C:\Users\tb> $x + $y     casting occurs
 PS C:\Users\tb> $y + $x
 55                              
 thus:
-[int]$age = read-host ìenter your ageî
+[int]$age = read-host ‚Äúenter your age‚Äù
 
 @336 writing your own cmdlet
 
@@ -187,11 +194,29 @@ connect.microsoft.com
 @4:05:16 
 make it part of your job
 get automating in to my job dscription
-automating - ìpart of my job this year will be to automate a task a that takes us 5 hours to do...î a metric on me, this will save us 5 hours in the course of a year
-if Iíve not done it... ìyou didnít give me the time I neededî
+automating - ‚Äúpart of my job this year will be to automate a task a that takes us 5 hours to do...‚Äù a metric on me, this will save us 5 hours in the course of a year
+if I‚Äôve not done it... ‚Äúyou didn‚Äôt give me the time I needed‚Äù
+
+
+Get-Process | where                   name -Match wininit   <- posh3
+Get-Process | Where-Object       name -Match wininit   <- posh3
+Get-Process | Where-Object {$_.Name -match wininit}  <- FAILS
+Get-Process | Where-Object {$_.Name -match "wininit"}
+
 
 ---
 
 powershell notes..
 
 Enter-PSSession -computerName tfsbuildwsper
+
+---
+from google drive...
+  PS C:\_ws\tfs\collnView\fb\fb01> ls -r *.sln -File -Filter "*.sln" | Select-Object Name | Sort-Object Name
+  get-adgroupmember tfs_testers | select name   <- ran this on tfsbuildwsper1, as it's an installed feature
+  get-adgroupmember tfs_member | select name
+
+  ^ run command on different box...
+  enter-pssession tfsbuildwsper1
+  invoke-command -computername tfsbuildwsper1 {get-adgroupmember tfs_member | select name}
+http://stackoverflow.com/questions/25856517/get-list-of-checked-out-files-in-tfs-error 
